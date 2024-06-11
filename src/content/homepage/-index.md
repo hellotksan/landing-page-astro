@@ -5,7 +5,7 @@ banner:
   content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
   image: "/images/banner.png"
   button:
-    enable: true
+    enable: false
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/astroplate"
 
@@ -34,7 +34,7 @@ features:
       - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
       - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/astroplate"
 
