@@ -1,9 +1,12 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, I am Takahashi!"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+初めまして。私は高橋と申します。IT系の専門学校に通って、今年で2年生になります。
+主に、プログラミング（pythonやjavascript、phpなど）やデータベース（mysql）、それ以外にも、ストラテジやマネジメントなど、幅広く学んでいます。
+年齢は21歳です。趣味はwebアプリを作ったり、FPS系のゲームをしたり、youtubeを見たりなど。（タルコフといってもわかる人いなさそうですが）。
+そろそろ新しい一軒家に引っ越すのでDIYなどにも挑戦しようかなと思ったりしています。

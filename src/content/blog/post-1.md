@@ -1,23 +1,24 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "このサイトについて"
 meta_title: ""
 description: "this is meta description"
-date: 2022-04-04T05:00:00Z
+date: 2024-07-26T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
-author: "John Doe"
-tags: ["nextjs", "tailwind"]
+categories: ["blog"]
+author: "takahashi"
+tags: ["juststart"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+# このサイトについて
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## まず、自己紹介を
 
-## Creative Design
+初めまして。私は高橋と申します。IT系の専門学校に通って、今年で2年生になります。
+主に、プログラミング（pythonやjavascript、phpなど）やデータベース（mysql）、それ以外にも、ストラテジやマネジメントなど、幅広く学んでいます。
+年齢は21歳です。趣味はwebアプリを作ったり、FPS系のゲームをしたり、youtubeを見たりなど。（タルコフといってもわかる人いなさそうですが）。
+そろそろ新しい一軒家に引っ越すのでDIYなどにも挑戦しようかなと思ったりしています。
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## このサイトではなにを投稿するのか
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+あまり、考えてはいませんが、それこそプログラミングに関することなどでもいいですし、それ以外の趣味に関することでもいいと思っています。好きなように好きなことを投稿します。
