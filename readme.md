@@ -1,6 +1,10 @@
-# My landing pages
-- welcome!
+# My landing page
 
+このWEBサイトはastroplateというastroのテンプレートを使用して作成しました。
+テンプレートのURLは下記記載。
 
-## siteURL
-https://tks-landing.pages.dev
+[astroplateURL](https://github.com/zeon-studio/astroplate)
+
+## Whats this
+
+このWEBサイトでは、私に関することや投稿を見ることができます。
