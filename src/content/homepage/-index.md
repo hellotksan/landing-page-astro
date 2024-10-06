@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Whats About Me??"
-  content: "I am Takahashi, a second-year student in the Advanced Specialist Information Technology Department at Saitama IT/Web Vocational School."
+  content: "とあるIT系専門学校の生徒です。高橋と申します。プログラミングをやったり、ゲーム実況をみたり。"
   image: "/images/banner.png"
   button:
     enable: false
@@ -22,13 +22,17 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "What languages can you use?"
+  - title: "What languages can I use?"
     image: "/images/service-2.png"
     content: ""
     bulletpoints:
-      - "JavaScript frameworks including React and Node.js."
-      - "Python frameworks including Flask and Django."
-      - "SQL languages including RDB and NoSQL"
+      - "JavaScript"
+      - "NodeJs"
+      - "React & NextJs"
+      - "Python"
+      - "PHP"
+      - "MySQL"
+      - "Firebase & MongoDB"
     button:
       enable: false
       label: "Get Started Now"
