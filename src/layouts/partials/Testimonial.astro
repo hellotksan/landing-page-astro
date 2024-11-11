@@ -22,6 +22,7 @@ const { testimonial } = Astro.props;
                     content: string;
                     name: string;
                     designation: string;
+                    url?: string;
                   }) => (
                     <div class="swiper-slide">
                       <div class="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
@@ -55,10 +56,24 @@ const { testimonial } = Astro.props;
                             />
                           </div>
                           <div class="ml-4">
-                            <h3
-                              set:text={item.name}
-                              class="h5 font-primary font-semibold"
-                            />
+                            {item.url ? (
+                              <a
+                                href={item.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <h3
+                                  set:text={item.name}
+                                  class="h5 font-primary font-semibold"
+                                />
+                              </a>
+                            ) : (
+                              <h3
+                                set:text={item.name}
+                                class="h5 font-primary font-semibold"
+                              />
+                            )}
+
                             <p
                               set:text={item.designation}
                               class="text-dark dark:text-white"
@@ -67,7 +82,7 @@ const { testimonial } = Astro.props;
                         </div>
                       </div>
                     </div>
-                  ),
+                  )
                 )}
               </div>
               <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center" />

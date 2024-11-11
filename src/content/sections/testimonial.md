@@ -1,14 +1,15 @@
 ---
 enable: true
 title: "What Products I Produce?"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Astroplate."
+description: "私が今まで作成してきたアプリケーションを紹介します！"
 
 # Testimonials
 testimonials:
   - name: "Next SNS"
-    designation: "SNS Clone with nextjs and nodejs"
-    avatar: "/images/avatar-sm.png"
-    content: ""
+    designation: ""
+    avatar: "/images/vercel.png"
+    content: "nextjsやnodejs、mongoDBなど、フルスタックのSNSクローンのWEBアプリケーションです。"
+    url: "https://nextsns-one.vercel.app"
 
   - name: "Todo App"
     designation: ""

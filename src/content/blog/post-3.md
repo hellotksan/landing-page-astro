@@ -10,8 +10,6 @@ tags: ["stable-diffusion"]
 draft: false
 ---
 
-# Stable Difussionを使ってみた
-
 最近、なにかと自分でイラストが描けたらいいなと思うことがありまして、
 そこで思いついたのが、AIに書いてもらえばいいじゃないかと。
 
