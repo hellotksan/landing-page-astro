@@ -42,10 +42,11 @@ features:
 
   - title: "How have you been involved in projects?"
     image: "/images/service-3.png"
-    content: "あなたのプロジェクトに貢献します！"
+    content: "私の経験を紹介します。あなたのプロジェクトに貢献させてください！"
     bulletpoints:
-      - "I won the autonomous division of the **Dorokatu**. I programmed a drone using Python to compete according to the rules."
-      - "I collaborated with the client to create the requested product."
+      - "ドロカツ全国大会　プログラミング部門優勝"
+      - "AI Challenge 2024 予選出場"
+      - "さまざまなアプリ開発の協力"
     button:
       enable: false
       label: ""

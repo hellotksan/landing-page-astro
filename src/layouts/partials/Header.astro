@@ -1,9 +1,10 @@
 ---
-import Logo from "@/components/Logo.astro";
+// import Logo from "@/components/Logo.astro";
 import ThemeSwitcher from "@/components/ThemeSwitcher.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import { IoSearch } from "react-icons/io5";
+import { Rocket } from "lucide-react";
 
 export interface ChildNavigationLink {
   name: string;
@@ -22,11 +23,17 @@ const { navigation_button, settings } = config;
 const { pathname } = Astro.url;
 ---
 
-<header class={`header z-30 ${settings.sticky_header && "sticky top-0"}`}>
+<header
+  class={`header z-30 ${settings.sticky_header && "sticky top-0 border-b-2"}`}
+>
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
-      <Logo />
+      <a href="/" class="navbar-brand inline-flex items-center space-x-1">
+        <span>tks-landing</span>
+        <Rocket />
+      </a>
+      <!-- <Logo /> -->
     </div>
     <!-- navbar toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />

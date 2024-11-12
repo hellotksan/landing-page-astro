@@ -3,8 +3,8 @@ title: "Hello, Im Takahashi !"
 meta_title: "About"
 description: "this is meta description"
 date: 2024-10-02T05:00:00Z
-image: "/images/avatar.png"
-draft: false
+image: "/images/takahashi.png"
+draft: true
 ---
 
 初めまして。私は高橋と申します。IT系の専門学校に通って、今年で2年生になります。

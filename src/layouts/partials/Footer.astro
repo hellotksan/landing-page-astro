@@ -5,15 +5,20 @@ import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
+import { Rocket } from "lucide-react";
 
 const { footer }: { footer: { name: string; url: string }[] } = menu;
 ---
 
 <footer class="bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
-    <div class="row items-center py-10">
+    <div class="row items-inline py-10">
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
-        <Logo />
+        <a href="/" class="navbar-brand inline-flex items-center space-x-1">
+          <span>tks-landing</span>
+          <Rocket />
+        </a>
+        <!-- <Logo /> -->
       </div>
       <div class="mb-8 text-center lg:col-6 lg:mb-0">
         <ul>
@@ -31,7 +36,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       </div>
     </div>
   </div>
-  <div class="border-t border-border py-7 dark:border-darkmode-border">
+  <div class="border-t border-border py-20 dark:border-darkmode-border">
     <div class="container text-center text-light dark:text-darkmode-light">
       <p set:html={markdownify(config.params.copyright)} />
     </div>

@@ -1,9 +1,9 @@
 {
   "site": {
-    "title": "Astroplate",
+    "title": "tks-landing-page",
     "base_url": "https://astroplate.netlify.app",
     "base_path": "/",
-    "trailing_slash": false,
+    "trailing_slash": true,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio) <br> Deployed by [Takahashi](http://github.com/hellotksan)"
   },
 
   "navigation_button": {
